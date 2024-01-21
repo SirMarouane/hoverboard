@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url("./../src/fond-ecran-abstrait-nebuleuse-ultra-detaille-4.jpg");
+    background-size: cover;
+}
+
+section {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex-wrap: wrap;
+   
+
+}
+
+div {
+    width: 10px;
+    height: 10px;
+
+    background-color: rgba(0, 0, 0, 0.482);
+    }
