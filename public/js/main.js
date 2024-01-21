@@ -17,6 +17,7 @@ let newDiv = document.querySelectorAll("div")
 newDiv.forEach(element => {
     element.addEventListener("mouseover", () => {
         element.style.background = color[Math.floor(Math.random()*color.length)]
+        element.style.transition = "0s"
        
         
     })
